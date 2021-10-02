@@ -113,17 +113,7 @@ p {
     flex-direction: row;
 }
 
-#research_icon {
-    max-width: 50px;
-}
-    
-#prototyping_icon {
-    max-width: 50px;
-}
 
-#programming_icon {
-    max-width: 50px;
-}
 
 .workGrid {
     margin: 0px 5%;
@@ -156,16 +146,7 @@ p {
     padding: 50px;
 }
 
-.SFJAZZ {
-    grid-area: "SFJAZZ";
-    margin: 100px 100px;
-  }
 
-.US-Department-of-Education {
-        grid-area: "US-Department of Education";
-        margin: 100px 100px;
-      }
-
-  @media only screen and (max-width: 600){
-
+  .card-icon {
+      max-width: 50px;
   }

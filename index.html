@@ -3,28 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <title>Harry_Morgan_Portfolio</title>
-        <link rel="stylesheet" href="./CSS/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         <link href="https://fontawesome.com/v5.15/icons?d=gallery&p=2" rel="stylesheet">
+        <link rel="stylesheet" href="./CSS/style.css">
     </head>
     <body>
-        <header class="navigation">
-            <div class="inline-block and logo">
-                <img src="images/Logo.svg">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="menu container-fluid">
+              <a class="navbar-brand" href="#"><img src="./Images/Logo.svg"></a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Resume</a>
+                    
+                  </li>
+    
+                </ul>
+    
+              </div>
             </div>
-        </header>
-        <nav class="inline-block">
-            <ul>
-                <li>About</li>
-                <li>Resume</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+          </nav>
         <section class="heroImg">
             <div class="content">
                 <img src="images/profile pic.jpg" id="Profile">
@@ -39,61 +49,95 @@
                 </p>
             </div>
         </section>  
-        <!--  My UX Skills section coded using CSS flex --> 
-        <section class="mySkills">
-            <h1>My UX Skills</h1>
-            <div class=flexContainer>
-                <div> 
-                    <img src="./Images/qualitative-research.png" id="research_icon">
-                    <h3>User Research</h3>
-                    <p>Qualitative and quantative research methods, including surveys, user personas, user journey maps and empathy maps</p>
-                </div>
-                <div>
-                    <img src="./Images/prototyping.png" id="prototyping_icon">
-                    <h3>User Interface Design</h3>
-                    <p>Information architecture, paper wireframing, low-mid-high fidelity prototyping</p>
-                </div>
-                <div>
-                    <img src="./Images/web-programming.png" id="programming_icon">
-                    <h3>Web Development</h3>
-                    <p>HMTL, CSS, Javascript, JQuery, and Bootstrap 4</p>
+        <!--  My UX Skills section coded using Bootstrap --> 
+        <section id="mySkills">
+            <h2> <span class="yellow">My</span> Skills</h2>
+              <div class="container">
+                <div class="row">
+                    <div class="adventure-item col-lg-4 col-md-12 col-sm-12"> 
+                      <div class="adventure-card">
+                        <div class="card-items">
+                          <p class="card-icon"></p><img src="./Images/qualitative-research.png" /></p>
+                          <h3>User Research</h3>
+                          <p>Qualitative and quantative research methods, including surveys, user personas, user journey maps and empathy maps</p>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="adventure-item col-lg-4 col-md-12 col-sm-12"> 
+                      <div class="adventure-card">
+                        <div class="card-items">
+                          <p class="card-icon"><img src="./Images/prototyping.png" /></p>
+                          <h3>User Interface Design</h3>
+                          <p>Information architecture, paper wireframing, low-mid-high fidelity prototyping</p>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="adventure-item col-lg-4 col-md-12 col-sm-12"> 
+                      <div class="adventure-card">
+                        <div class="card-items">
+                          <p class="card-icon"><img src="./Images/web-programming.png" /></p>
+                          <h3>Web Development</h3>
+                          <p>HMTL, CSS, Javascript, JQuery, and Bootstrap 4</p>
+                        </div>
+                      </div>
+                    </div>
+    
                 </div>
             </div>
-        </section> 
+    
+    
+    
+        </section>    
+    
 
-        <!-- My Work Section Constructed using CSS Grid -->
-        <section class="myWork">
-            <h1>My Work</h1>
-            <div class="workGrid">
-                <div>
-                    <img src="./Images/SFJAZZ_desktop.svg" id="SFJAZZ_image">
-                </div>
-                <div>
-                    <h4>SFJAZZ</h4>
-                    <p>Redesigning the sfjazz.org homepage, UI and IA to improve the usability of the site and to increase the visibility of educational and community outreach programs.</p>
-                    <button>View Case Study</button>
-                </div>
-                <div>
-                    <img src="./Images/Watchify_mobile.svg" id="Watchify_image">
-                </div>
-                <div>
-                    <h4>Watchify</h4>
-                    <p>An app concept solving the problem of finding new TV shows and movies to watch. Connect with friends and loved ones to share top picks, watchlists, and more.
-                    </p>
-                    <button>View Case Study</button>
-                </div>
-                <div> 
-                    <img src="./Images/US_DofE.svg" id="DofE_image">
-                </div>
-                <div>
-                    <h4>U.S. Department of Education</h4>
-                    <p>Improving the user experience of the U.S. DofE website, focusing on the needs of students and parents. Updated UI style, new information architecture, and responsive design elements.
-                    </p>
-                    <button>View Case Study</button>
+        <!-- My Work Section Constructed using Bootstrap -->
+        <section id="myWork">
+            <h2> <span class="yellow">My</span> Work</h2>
+              <div class="container">
+                <div class="row">
+                    
+                    <div class="adventure-item col-lg-4 col-md-12 col-sm-12"> 
+                      <div class="adventure-card">
+                        <div class="card-items">
+                          <p class="card-icon"><img src="./Images/SFJAZZ_desktop.svg" id="SFJAZZ_image"></p>
+                          <h3>SFJAZZ</h3>
+                          <p> Redesigning the sfjazz.org homepage, UI and IA to improve the usability of the site and to increase the visibility of educational and community outreach programs.</p>
+                          <a class="btn btn-primary" href="#" role="button">View Case Study</a>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="adventure-item col-lg-4 col-md-12 col-sm-12"> 
+                      <div class="adventure-card">
+                        <div class="card-items">
+                          <p class="card-icon"><img src="./Images/Watchify_mobile.svg" id="Watchify_image"></p>
+                          <h3>Watchify</h3>
+                          <p> An app concept solving the problem of finding new TV shows and movies to watch. Connect with friends and loved ones to share top picks, watchlists, and more.</p>
+                          <a class="btn btn-primary" href="#" role="button">View Case Study</a>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="adventure-item col-lg-4 col-md-12 col-sm-12"> 
+                      <div class="adventure-card">
+                        <div class="card-items">
+                          <p class="card-icon"> <img src="./Images/US_DofE.svg" id="DofE_image"></p>
+                          <h3>US Department of Education</h3>
+                          <p> Improving the user experience of the U.S. DofE website, focusing on the needs of students and parents. Updated UI style, new information architecture, and responsive design elements.</p>
+                          <a class="btn btn-primary" href="#" role="button">View Case Study</a>
+                        </div>
+                      </div>
+                    </div>
+    
                 </div>
             </div>
-            <h3>View All Projects</h3>
-        </section>
+    
+    
+    
+        </section>    
+    
     </body>
 </html>
 
