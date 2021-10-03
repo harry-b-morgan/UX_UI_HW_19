@@ -49,6 +49,7 @@
                 </p>
             </div>
         </section>  
+        
         <!--  My UX Skills section coded using Bootstrap --> 
         <section id="mySkills">
             <h2> <span class="yellow">My</span> Skills</h2>
@@ -57,7 +58,7 @@
                     <div class="adventure-item col-lg-4 col-md-12 col-sm-12"> 
                       <div class="adventure-card">
                         <div class="card-items">
-                          <p class="card-icon"></p><img src="./Images/qualitative-research.png" /></p>
+                          <img src="./Images/qualitative-research.png" class="card-icon"/>
                           <h3>User Research</h3>
                           <p>Qualitative and quantative research methods, including surveys, user personas, user journey maps and empathy maps</p>
                         </div>
@@ -67,7 +68,7 @@
                     <div class="adventure-item col-lg-4 col-md-12 col-sm-12"> 
                       <div class="adventure-card">
                         <div class="card-items">
-                          <p class="card-icon"><img src="./Images/prototyping.png" /></p>
+                          <img src="./Images/prototyping.png" class="card-icon"/>
                           <h3>User Interface Design</h3>
                           <p>Information architecture, paper wireframing, low-mid-high fidelity prototyping</p>
                         </div>
@@ -77,7 +78,7 @@
                     <div class="adventure-item col-lg-4 col-md-12 col-sm-12"> 
                       <div class="adventure-card">
                         <div class="card-items">
-                          <p class="card-icon"><img src="./Images/web-programming.png" /></p>
+                          <img src="./Images/web-programming.png" class="card-icon"/>
                           <h3>Web Development</h3>
                           <p>HMTL, CSS, Javascript, JQuery, and Bootstrap 4</p>
                         </div>
@@ -87,9 +88,19 @@
                 </div>
             </div>
     
-    
-    
         </section>    
+
+        <!-- My Tools Section Constructed using JQuery --> 
+
+        <div class="tools_container">
+            <h2>My Favorite Tools</h2>
+            <div id="toggle"><i class="fa-solid fa-bars"></i>></div>
+            <ul id="dropDown">
+              <li>Figma</li>
+              <li>InVision</li>
+              <li>Visual Studio Code</li>
+            </ul>
+          </div>
     
 
         <!-- My Work Section Constructed using Bootstrap -->
@@ -123,7 +134,7 @@
                     <div class="adventure-item col-lg-4 col-md-12 col-sm-12"> 
                       <div class="adventure-card">
                         <div class="card-items">
-                          <p class="card-icon"> <img src="./Images/US_DofE.svg" id="DofE_image"></p>
+                          <p class="card-icon"> <img src="./Images/Ed.gov prototype.png" id="DofE_image"></p>
                           <h3>US Department of Education</h3>
                           <p> Improving the user experience of the U.S. DofE website, focusing on the needs of students and parents. Updated UI style, new information architecture, and responsive design elements.</p>
                           <a class="btn btn-primary" href="#" role="button">View Case Study</a>
@@ -134,10 +145,9 @@
                 </div>
             </div>
     
-    
-    
         </section>    
-    
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="js/index.js"></script>
     </body>
 </html>
 

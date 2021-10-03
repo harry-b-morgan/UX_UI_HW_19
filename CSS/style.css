@@ -2,11 +2,6 @@ body {
     background-color: #F3F3F1;
 }
 
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
-}
-
 .logo {
     width: 46px;
     padding: 1%;
@@ -105,26 +100,47 @@ p {
     height: 300px;
 }
 
-.flexContainer {
-    display: flex;
-    width: 33%;
-    margin: 25px;
-    padding: 25px;
-    flex-direction: row;
+.card-icon {
+    width: 100px;
 }
 
-
-
-.workGrid {
-    margin: 0px 5%;
-    display: grid;
-    grid-template-rows: 300px 300px 300px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "Watchify"
-    "SFJAZZ"
-    "US–Department-of-Education";
-}
+.tools_container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Quattrocento Sans', sans-serif;
+  }
+  
+  #dropDown {
+    display: none;
+  }
+  
+  #toggle {
+    background-color: #5c0202;
+    padding: 15px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer; 
+  }
+  
+  #hamburger {
+    color: white;
+  }
+  
+  ul {
+    margin:0;
+    padding: 0;
+    list-style-type:none;
+  }
+  li {
+    margin:0;
+    padding: 15px;
+    border: 1px solid black;
+  }
+  img {
+    width: 18px;
+  }  
 
 .Watchify {
     grid-area: "Watchify";
@@ -132,21 +148,18 @@ p {
   }
 
 #SFJAZZ_image {
-    height: 400px;
+    width: 400px;
     padding: 50px;
 }
 
 #Watchify_image {
-    height: 400px;
+    width: 400px;
     padding: 50px;
 }
 
 #DofE_image {
-    height: 400px;
+    width: 400px;
     padding: 50px;
 }
 
-
-  .card-icon {
-      max-width: 50px;
-  }
+ 
