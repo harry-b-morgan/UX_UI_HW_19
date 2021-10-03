@@ -53,6 +53,10 @@ nav ul li:hover {
     text-decoration-line: underline;
 }
 
+.Bio {
+    margin: 25px;
+}
+
 .heroImg {
     width: 285px;
     padding: 25px;
@@ -60,7 +64,6 @@ nav ul li:hover {
 
 .content {
     width: 500px;
-    margin: 0 auto;
 }
 
 h1 {
@@ -139,6 +142,21 @@ li {
     margin:0;
     padding: 15px;
   }
+
+#figma_logo {
+    padding: 15px;
+    width: 100px;
+}
+
+#invision_logo {
+    padding: 15px;
+    width: 100px;
+}
+
+#vsc_logo {
+    padding: 15px;
+    width: 100px;
+}
 
 .Watchify {
     grid-area: "Watchify";
