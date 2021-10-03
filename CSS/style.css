@@ -112,11 +112,12 @@ p {
     font-family: 'Quattrocento Sans', sans-serif;
   }
   
-  #dropDown {
+#dropDown {
     display: none;
+    border: 1px solid black;
   }
   
-  #toggle {
+#toggle {
     background-color: #5c0202;
     padding: 15px;
     color: white;
@@ -124,23 +125,20 @@ p {
     cursor: pointer; 
   }
   
-  #hamburger {
+#hamburger {
     color: white;
   }
   
-  ul {
+ul {
     margin:0;
     padding: 0;
     list-style-type:none;
   }
-  li {
+ 
+li {
     margin:0;
     padding: 15px;
-    border: 1px solid black;
   }
-  img {
-    width: 18px;
-  }  
 
 .Watchify {
     grid-area: "Watchify";
